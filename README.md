@@ -1,9 +1,9 @@
-# advertyzement-intern-assignment
-Create a web application using create-react-app:
+#Approach
 
-1. Create a User card grid layout having navbar showing any brand name
-2. Add a button in the navbar saying 'Get Users', which makes an API call to get the user data
-3. Use https://reqres.in/api/users?page=1 to get the data
-4. Show a loader while the API fetches the data.
-5. Bonus points for using custom CSS/SASS/styled-components.
-6. Bonus points for clean code.
+1. Made a repo on github and cloned it locally on my pc
+2. Initialized a reactjs project in the repo using "create-react-app userapp"
+3. Made 3 React UI components - Loader, Navbar and UserCard in components folder
+4. Wrote html in respective react component and css in App.css
+5. Since "Get Users" button is in Navbar I did state lifting upto the ancestor component which is App.js
+6. When button is clicked in navbar state is lifed to the App.js
+7. We call our api in App.js when button is clicked using map() we print out UserCards with api data into the dom
