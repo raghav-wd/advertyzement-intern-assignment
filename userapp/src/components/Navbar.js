@@ -1,9 +1,13 @@
-const Navbar = () => {
+const Navbar = ({ onSetIsClicked }) => {
+    const clicked = () => {
+        // alert('hi')
+        onSetIsClicked(1);
+    }
     return (
         <div className="Navbar">
             <ul>
                 <li><a className="brand">Advertyzement</a></li>
-                <button class="button button1">Get Users</button>
+                <button onClick={clicked}className="button button1">Get Users</button>
             </ul>
         </div>
     )
