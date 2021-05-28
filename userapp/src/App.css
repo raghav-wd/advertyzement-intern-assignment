@@ -1,6 +1,8 @@
 .nopad{
   padding: 0;
 }
+
+/* Navbar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,9 +31,8 @@ li a:hover {
   background-color: #111;
 }
 
+/* Get user btn */
 .button {
-  background-color: #4CAF50;
-  /* Green */
   border: none;
   color: white;
   padding: 14px 26px;
@@ -50,11 +51,11 @@ li a:hover {
   float: right;
 }
 
+/* User card btn */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 100%;
-  /* padding: 18px; */
 }
 
 .card:hover {
@@ -66,6 +67,7 @@ li a:hover {
   font-size: 20px;
 }
 
+/* Responsive css */
 @media only screen and (max-width: 600px) {
   .Navbar .brand {
     font-size: 20px;
@@ -124,6 +126,7 @@ li a:hover {
   .col-s-12 {width: 100%;}
 }
 
+/* Loader */
 .loader {
   border: 12px solid white; /* Light grey */
   border-top: 12px solid #9575cd; /* Blue */

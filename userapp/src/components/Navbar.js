@@ -1,6 +1,5 @@
 const Navbar = ({ onSetIsClicked }) => {
     const clicked = () => {
-        // alert('hi')
         onSetIsClicked(1);
     }
     return (
